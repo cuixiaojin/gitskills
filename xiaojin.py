@@ -15,8 +15,8 @@ from collections import OrderedDict
 def main():
 
     # 数据库输入
-    train_dir = r'.\datas\train'
-    test_dir = r'.\datas\test'
+    train_dir = './network/datas/train'
+    test_dir = './network/datas/test'
 
     # TODO: 定义培训集、验证集和测试集的转换
     train_transforms = transforms.Compose([transforms.Resize([224,224]),
@@ -54,7 +54,7 @@ def main():
     fmodel.classifier = classifier
 
 
-    network_loading(fmodel, 't.pth')
+    network_loading(fmodel, './network/1.pth')
     # 定制标准和优化器
 
     criterion = nn.CrossEntropyLoss()

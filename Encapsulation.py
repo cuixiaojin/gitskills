@@ -18,13 +18,13 @@ class B():
             ('relu1', nn.ReLU()),
             ('fc2', nn.Linear(4096, 1000)),
             ('relu2', nn.ReLU()),
-            ('fc3', nn.Linear(1000, 102)),
+            ('fc3', nn.Linear(1000, 62)),
             ('output', nn.LogSoftmax(dim=1))
         ]))
         self.fmodel.classifier = classifier
         self.criterion = nn.CrossEntropyLoss()
         self.optimizer = optim.SGD(self.fmodel.parameters(), lr=0.001, momentum=0.9)
-        network_loading(self.fmodel, 't.pth')
+        network_loading(self.fmodel, './network/1.pth')
         self.train_transforms = transforms.Compose([transforms.Resize([224, 224]),
                                                transforms.RandomHorizontalFlip(),
                                                transforms.ToTensor(),

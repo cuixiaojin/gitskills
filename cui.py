@@ -82,7 +82,8 @@ def network_loading(model, ckp_path):
 
 
 def network_saving(model):
-    torch.save(model.state_dict(), 't.pth')
+    torch.save(model.state_dict(), './network/1.pth')
 
     print('The Network is Saved')
+
 

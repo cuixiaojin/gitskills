@@ -1,18 +1,16 @@
 def zidian(i):
 
-    dict1={0: 'fire lily0', 1: 'fire lily1', 2: 'fire lily2', 3: 'fire lily3',   4: 'fire lily4',
-    5: 'fire lily5',    6: 'fire lily6',   7: 'fire lily7',   8: 'fire lily8',   9: 'fire lily9',
-    10: 'fire lily10', 11: 'fire lily11', 12: 'fire lily12', 13: 'fire lily13', 14: 'fire lily14',
-    15: 'fire lily15', 16: 'fire lily16', 17: 'fire lily17', 18: 'fire lily18', 19: 'fire lily19',
-    20: 'fire lily20', 21: 'fire lily21', 22: 'fire lily22', 23: 'fire lily23', 24: 'fire lily24',
-    25: 'fire lily25', 26: 'fire lily26', 27: 'fire lily27', 28: 'fire lily28', 29: 'fire lily29',
-    30: 'fire lily30', 31: 'fire lily31', 32: 'fire lily32', 33: 'fire lily33', 34: 'fire lily34',
-    35: 'fire lily35', 36: 'fire lily36', 37: 'fire lily37', 38: 'fire lily38', 39: 'fire lily39',
-    40: 'fire lily40', 41: 'fire lily41', 42: 'fire lily42', 43: 'fire lily43', 44: 'fire lily44',
-    45: 'fire lily45', 46: 'fire lily46', 47: 'fire lily47', 48: 'fire lily48', 49: 'fire lily49',
-    50: 'fire lily50', 51: 'fire lily51', 52: 'fire lily52', 53: 'fire lily53', 54: 'fire lily54',
-    55: 'fire lily55', 56: 'fire lily56', 57: 'fire lily57', 58: 'fire lily58', 59: 'fire lily59',
-    60: 'fire lily60', 61: 'fire lily61'
-    }
+    dict1={0: '路面不平', 1: '驼峰桥', 2: '易滑', 3: '向左转弯',   4: '向右转弯',
+    5: '连续左转',    6: '连续右转',   7: '注意儿童',   8: '注意非机动车',   9: '空',
+    10: '施工', 11: '空', 12: '有人看守铁路道口', 13: '注意危险', 14: '两侧变窄',
+    15: '空', 16: '右侧变窄', 17: '干路先行', 18: '十字交通路口', 19: '减速让行',
+    20: '双向交通', 21: '停车让行', 22: '停车检查', 23: '禁止非机动车通行', 24: '限制质量',
+    25: '禁止载货汽车通行', 26: '空', 27: '禁止高度', 28: '禁止通行', 29: '禁止向左转弯',
+    30: '禁止向右转弯', 31: '禁止某两种车通行', 32: '注意行人', 33: '直行或者右拐', 34: '直行',
+    35: '左右直行', 36: '直行或者右拐', 37: '环岛行驶', 38: '自行车', 39: '诺托登',
+    40: '禁止停车', 41: '禁止停车', 42: '限速标志', 43: '限速标志', 44: '会车先行',
+    45: '停车标志', 46: '轮椅车位', 47: '出租车位', 48: '货车车位', 49: '公交车位',
+    50: '码头停车', 51: '玩乐', 52: '禁止玩乐', 53: '直行', 54: '锤子',
+    55: '禁止施工', 56: '人虚线', 57: '人骑车', 58: 'P箭头', 59: '道路施工',
+    60: '上菱加杠', 61: '上菱'}
     return dict1[i]
-
